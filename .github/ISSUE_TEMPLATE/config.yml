@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Private feedback or no GitHub account
-    url: mailto:ajsmit@uwc.ac.za
+    url: https://www.saoce.org/help/#contact-maintainer
     about: Email the project maintainer for private questions or sensitive information.
   - name: SAOCE help and methods
     url: https://www.saoce.org/help/
