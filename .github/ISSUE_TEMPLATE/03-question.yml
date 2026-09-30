@@ -1,0 +1,16 @@
+name: Ask a question
+description: Ask about SAOCE tools, data or interpretation.
+title: "[Question] "
+labels: [question]
+assignees: [ajsmit]
+body:
+  - type: markdown
+    attributes:
+      value: "Your question and replies will be public. Use the private email option for confidential material."
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Include the relevant tool, map layer or method if useful.
+    validations:
+      required: true

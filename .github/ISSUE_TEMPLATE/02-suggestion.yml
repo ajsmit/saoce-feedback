@@ -1,0 +1,23 @@
+name: Suggest an improvement
+description: Explain a task that SAOCE could support better.
+title: "[Suggestion] "
+labels: [enhancement]
+assignees: [ajsmit]
+body:
+  - type: markdown
+    attributes:
+      value: "This suggestion will be public. Keep private research and personal information out of the report."
+  - type: textarea
+    id: task
+    attributes:
+      label: What are you trying to do?
+      description: Describe the question you want to answer or the difficulty you encounter.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would help?
+      description: Describe the proposed improvement and how you would use it.
+    validations:
+      required: true

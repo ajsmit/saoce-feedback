@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private feedback or no GitHub account
+    url: mailto:ajsmit@uwc.ac.za
+    about: Email the project maintainer for private questions or sensitive information.
+  - name: SAOCE help and methods
+    url: https://www.saoce.org/help/
+    about: Read the guide to the map, analyses and scientific methods.

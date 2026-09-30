@@ -1,0 +1,28 @@
+name: Report a problem
+description: Tell the maintainer what failed or seemed incorrect in SAOCE.
+title: "[Problem] "
+labels: [bug]
+assignees: [ajsmit]
+body:
+  - type: markdown
+    attributes:
+      value: "This report will be public. Do not include private locations, unpublished research, passwords or visitor logs."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe what you saw and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we reproduce it?
+      description: Include the tool, map layer and date. Share a map link or screenshot only if its content can be public.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: For example, Safari on a MacBook.
